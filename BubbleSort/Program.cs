@@ -2,7 +2,7 @@
 
 namespace BubbleSort
 {
-     class program
+    class program
     {
         //Deklarasi array int dengan ukuran 20
         private int[] a = new int[20];
@@ -25,10 +25,10 @@ namespace BubbleSort
                     Console.WriteLine("\nArray dapat mempunyai maksimal 20 elemen.\n");
             }
             Console.WriteLine("");
-            Console.ReadLine("----------------------");
+            Console.WriteLine("---------------------");
             Console.WriteLine("Masukkan elemen array");
             Console.WriteLine("---------------------");
-            
+
             //pengguna memasukkan elemen pada array
             for (int i = 0; i < n; i++)
             {
@@ -52,7 +52,7 @@ namespace BubbleSort
         }
         public void BubbleSortArray()
         {
-            for (int i =1; i < n; i++) //For n - 1 passes
+            for (int i = 1; i < n; i++) //For n - 1 passes
             {
                 //Pada pass i, bandingkan n - i elemen pertama dengan elemen selanjutnya
                 for (int j = 0; j < n - i; j++)
